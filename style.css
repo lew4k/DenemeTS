@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+
+.container{
+  background: url(TS2.jpg);
+  height: 100vh;
+  background-size: 100% 100%;
+}
+
+
+.container .navbar{
+  width: 100%;
+  height: 10%;
+  background-color: brown;
+
+}
+
+.navbar .logo a{
+  text-decoration: none;
+  font-size: 170%;
+  font-family: sans-serif;
+  color: black;
+}
+
+
+.navbar .logo{
+  display: inline-block;
+  margin-left: 5%;
+  margin-top: 1.2%;
+  user-select: none;
+}
+
+.navbar ul{
+  float: right;
+  width: 30%;
+  height: 100%;
+}
+
+
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 8%;
+  line-height: 8%;
+}
+
+
+
+.navbar ul li a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 97.40%;
+  font-family: sans-serif;
+  transition: 0.5s;
+  user-select: none;
+}
+
+.container .center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  font-family: sans-serif;
+  user-select: none;
+}
+
+
+
+.center h1{
+  color: aqua;
+  font-size: 150%;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  transition: 0.5s;
+}
+
+
+.center h2{
+  color: rgb(255, 38, 0);
+  font-size: 100%;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.navbar ul li a:hover{
+  background-color: rgb(42, 81, 165);
+}
+
+.center h2:hover{
+  font-size: 120%;
+}
+
+
+.center h1:hover{
+  font-size: 170%;
+}
